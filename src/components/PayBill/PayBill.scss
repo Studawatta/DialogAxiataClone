@@ -1,0 +1,73 @@
+.payBill {
+  width: 78%;
+  height: 110px;
+  background-color: rgb(214, 211, 211);
+  position: absolute;
+  top: 450px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  border: 10px solid white;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 400px auto auto auto auto;
+  gap: 1px;
+
+  div {
+    background-color: white;
+  }
+  .numberInput {
+    // margin-top: 20px;
+    // margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    span {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    input {
+      width: 220px;
+      margin-top: 10px;
+      height: 30px;
+      padding: 8px 15px;
+      border: 1px solid rgb(214, 211, 211);
+      border-radius: 25px;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        font-size: 17px;
+        color: rgb(214, 211, 211);
+      }
+    }
+    button {
+      height: 46px;
+      padding: 0 30px;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 17px;
+      color: white;
+      background-color: rgb(228, 60, 88);
+      cursor: pointer;
+      margin-left: 25px;
+    }
+  }
+  .rightItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .icon {
+      font-size: 48px;
+      color: red;
+    }
+    span {
+      margin-top: 10px;
+      font-size: 17px;
+      color: gray;
+    }
+  }
+}

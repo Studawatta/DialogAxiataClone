@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import slide01 from "../../assets/slide01.jpg";
-import slide02 from "../../assets/slide02.jpg";
-import slide03 from "../../assets/slide03.jpg";
-import slide04 from "../../assets/slide04.jpg";
+import slide01 from "../../assets/topSliderImgs/slide01.jpg";
+import slide02 from "../../assets/topSliderImgs/slide02.jpg";
+import slide03 from "../../assets/topSliderImgs/slide03.jpg";
+import slide04 from "../../assets/topSliderImgs/slide04.jpg";
 
 import "./TopSlider.scss";
 const TopSlider = () => {
