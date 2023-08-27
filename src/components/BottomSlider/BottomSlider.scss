@@ -1,17 +1,93 @@
 .bottomSlider {
-  height: calc(100vh - 100px);
-  width: 100%;
-  overflow: hidden;
+  position: relative;
+  .bottomSliderAction {
+    height: calc(100vh - 100px);
+    width: 100%;
+    overflow: hidden;
 
-  div {
-    display: flex;
-    height: 100%;
-    transform: translateX(-4243px);
-    transition-duration: 150000ms;
-    transition-timing-function: linear;
-    img {
+    div {
+      display: flex;
       height: 100%;
-      width: 400px;
+      transform: translateX(-4243px);
+      transition-duration: 150000ms;
+      transition-timing-function: linear;
+      img {
+        height: 100%;
+        width: 400px;
+      }
+    }
+  }
+  .content {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    button {
+      padding: 15px 25px;
+      border: none;
+      border-radius: 25px;
+      color: red;
+      font-weight: bold;
+      font-size: 17px;
+      cursor: pointer;
+    }
+  }
+  .bottomButtons {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    border-radius: 25px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255, 0.6);
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 25px;
+      width: 250px;
+      height: 50px;
+      font-size: 17px;
+      z-index: 5;
+      cursor: pointer;
+      &:hover {
+        background-color: white;
+      }
+      .icon {
+        color: red;
+      }
+    }
+    .selectedButton {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 25px;
+      width: 250px;
+      height: 50px;
+      opacity: 1;
+      font-size: 17px;
+      z-index: 5;
+      cursor: pointer;
     }
   }
 }
