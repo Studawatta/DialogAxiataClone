@@ -1,0 +1,36 @@
+.coverage {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(244, 240, 240);
+  padding: 50px 0;
+  margin-top: 20px;
+  .container {
+    width: 78%;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    .left {
+      p {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0;
+        color: rgb(45, 45, 45);
+        span {
+          font-size: 24px;
+          color: black;
+        }
+      }
+      button {
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(228, 60, 88);
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    }
+  }
+}

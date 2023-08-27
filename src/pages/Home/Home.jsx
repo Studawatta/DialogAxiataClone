@@ -1,7 +1,11 @@
+import Ads from "../../components/Ads/Ads";
 import BottomSlider from "../../components/BottomSlider/BottomSlider";
+import Coverage from "../../components/Coverage/Coverage";
 import Navbar from "../../components/Navbar/Navbar";
 import PayBill from "../../components/PayBill/PayBill";
+import QuickLinks from "../../components/QuickLinks/QuickLinks";
 import TopSlider from "../../components/TopSlider/TopSlider";
+import Vision from "../../components/Vision/Vision";
 import "./Home.scss";
 
 const Home = () => {
@@ -13,6 +17,11 @@ const Home = () => {
         <PayBill />
         <BottomSlider />
       </div>
+      <QuickLinks />
+      <Ads />
+      <Coverage />
+      <Vision />
+      <div className="a"></div>
     </>
   );
 };
