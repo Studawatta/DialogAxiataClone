@@ -2,8 +2,10 @@ import Ads from "../../components/Ads/Ads";
 import BottomSlider from "../../components/BottomSlider/BottomSlider";
 import Coverage from "../../components/Coverage/Coverage";
 import CustomerFeedback from "../../components/CustomerFeedback/CustomerFeedback";
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import News from "../../components/News/News";
+import OurSolutions from "../../components/OurSolutions/OurSolutions";
 import PayBill from "../../components/PayBill/PayBill";
 import QuickLinks from "../../components/QuickLinks/QuickLinks";
 import TopSlider from "../../components/TopSlider/TopSlider";
@@ -25,7 +27,8 @@ const Home = () => {
       <Vision />
       <CustomerFeedback />
       <News />
-      <div className="a"></div>
+      <OurSolutions />
+      <Footer />
     </>
   );
 };

@@ -99,6 +99,7 @@ const News = () => {
             <ArrowForwardIosIcon />
           </div>
         </div>
+        <button>VIEW MORE NEWS</button>
       </div>
     </div>
   );
